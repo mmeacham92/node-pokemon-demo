@@ -1,0 +1,226 @@
+[
+  {
+    "_id": "557a723880a20c9db3bc31c2",
+    "pkdx_id": 1,
+    "national_id": 1,
+    "name": "Bulbasaur",
+    "__v": 3,
+    "image_url": "http://pokeapi.co/media/img/1.png",
+    "description": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.  Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
+    "art_url": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/001.png",
+    "types": ["poison", "grass"],
+    "evolutions": [
+      {
+        "level": 16,
+        "method": "level_up",
+        "to": "Ivysaur",
+        "_id": "557a723880a20c9db3bc31c3"
+      }
+    ]
+  },
+  {
+    "_id": "557a723980a20c9db3bc31e3",
+    "pkdx_id": 2,
+    "national_id": 2,
+    "name": "Ivysaur",
+    "__v": 4,
+    "image_url": "http://pokeapi.co/media/img/2.png",
+    "description": "There is a bud on this Pokémon's back. To support its weight, Ivysaur's legs and trunk grow thick and strong. If it starts spending more time lying in the sunlight, it's a sign that the bud will bloom into a large flower soon.  There is a bud on this Pokémon's back. To support its weight, Ivysaur's legs and trunk grow thick and strong. If it starts spending more time lying in the sunlight, it's a sign that the bud will bloom into a large flower soon.",
+    "art_url": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/002.png",
+    "types": ["poison", "grass"],
+    "evolutions": [
+      {
+        "level": 32,
+        "method": "level_up",
+        "to": "Venusaur",
+        "_id": "557a723980a20c9db3bc31e4"
+      }
+    ]
+  },
+  {
+    "_id": "557a723880a20c9db3bc31cc",
+    "pkdx_id": 3,
+    "national_id": 3,
+    "name": "Venusaur",
+    "__v": 5,
+    "image_url": "http://pokeapi.co/media/img/3.png",
+    "description": "There is a large flower on Venusaur's back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower's aroma soothes the emotions of people.  There is a large flower on Venusaur's back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower's aroma soothes the emotions of people.",
+    "art_url": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/003.png",
+    "types": ["poison", "grass"],
+    "evolutions": [
+      {
+        "method": "other",
+        "to": "Venusaur-mega",
+        "_id": "557a723880a20c9db3bc31cd"
+      }
+    ]
+  },
+  {
+    "_id": "557a723880a20c9db3bc31c8",
+    "pkdx_id": 4,
+    "national_id": 4,
+    "name": "Charmander",
+    "__v": 3,
+    "image_url": "http://pokeapi.co/media/img/4.png",
+    "description": "The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely.  The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely.",
+    "art_url": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/004.png",
+    "types": ["fire"],
+    "evolutions": [
+      {
+        "level": 16,
+        "method": "level_up",
+        "to": "Charmeleon",
+        "_id": "557a723880a20c9db3bc31c9"
+      }
+    ]
+  },
+  {
+    "_id": "557a723980a20c9db3bc31e8",
+    "pkdx_id": 5,
+    "national_id": 5,
+    "name": "Charmeleon",
+    "__v": 3,
+    "image_url": "http://pokeapi.co/media/img/5.png",
+    "description": "Charmeleon mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this excited state, the flame at the tip of its tail flares with a bluish white color.  Charmeleon mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this excited state, the flame at the tip of its tail flares with a bluish white color.",
+    "art_url": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/005.png",
+    "types": ["fire"],
+    "evolutions": [
+      {
+        "level": 36,
+        "method": "level_up",
+        "to": "Charizard",
+        "_id": "557a723980a20c9db3bc31e9"
+      }
+    ]
+  },
+  {
+    "_id": "557a723880a20c9db3bc31d1",
+    "pkdx_id": 6,
+    "national_id": 6,
+    "name": "Charizard",
+    "__v": 4,
+    "image_url": "http://pokeapi.co/media/img/6.png",
+    "description": "Charizard flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.  Charizard flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.",
+    "art_url": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+    "types": ["flying", "fire"],
+    "evolutions": [
+      {
+        "method": "other",
+        "to": "Charizard-mega-y",
+        "_id": "557a723880a20c9db3bc31d3"
+      },
+      {
+        "method": "other",
+        "to": "Charizard-mega-x",
+        "_id": "557a723880a20c9db3bc31d2"
+      }
+    ]
+  },
+
+  {
+    "_id": "557a723980a20c9db3bc31d7",
+    "pkdx_id": 7,
+    "national_id": 7,
+    "name": "Squirtle",
+    "__v": 3,
+    "image_url": "http://pokeapi.co/media/img/7.png",
+    "description": "Squirtle's shell is not merely used for protection. The shell's rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokémon to swim at high speeds.  Squirtle's shell is not merely used for protection. The shell's rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokémon to swim at high speeds.",
+    "art_url": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/007.png",
+    "types": ["water"],
+    "evolutions": [
+      {
+        "level": 16,
+        "method": "level_up",
+        "to": "Wartortle",
+        "_id": "557a723980a20c9db3bc31d8"
+      }
+    ]
+  },
+  {
+    "_id": "557a723980a20c9db3bc31df",
+    "pkdx_id": 8,
+    "national_id": 8,
+    "name": "Wartortle",
+    "__v": 3,
+    "image_url": "http://pokeapi.co/media/img/8.png",
+    "description": "Its tail is large and covered with a rich, thick fur. The tail becomes increasingly deeper in color as Wartortle ages. The scratches on its shell are evidence of this Pokémon's toughness as a battler.  Its tail is large and covered with a rich, thick fur. The tail becomes increasingly deeper in color as Wartortle ages. The scratches on its shell are evidence of this Pokémon's toughness as a battler.",
+    "art_url": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/008.png",
+    "types": ["water"],
+    "evolutions": [
+      {
+        "level": 36,
+        "method": "level_up",
+        "to": "Blastoise",
+        "_id": "557a723980a20c9db3bc31e0"
+      }
+    ]
+  },
+  {
+    "_id": "557a723980a20c9db3bc31db",
+    "pkdx_id": 9,
+    "national_id": 9,
+    "name": "Blastoise",
+    "__v": 3,
+    "image_url": "http://pokeapi.co/media/img/9.png",
+    "description": "Blastoise has water spouts that protrude from its shell. The water spouts are very accurate. They can shoot bullets of water with enough accuracy to strike empty cans from a distance of over 160 feet.  Blastoise has water spouts that protrude from its shell. The water spouts are very accurate. They can shoot bullets of water with enough accuracy to strike empty cans from a distance of over 160 feet.",
+    "art_url": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/009.png",
+    "types": ["water"],
+    "evolutions": [
+      {
+        "method": "other",
+        "to": "Blastoise-mega",
+        "_id": "557a723980a20c9db3bc31dc"
+      }
+    ]
+  },
+  {
+    "_id": "557a72aa7276d341b41edda6",
+    "pkdx_id": 10,
+    "national_id": 10,
+    "name": "Caterpie",
+    "__v": 3,
+    "image_url": "http://pokeapi.co/media/img/10.png",
+    "description": "Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.  Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.",
+    "art_url": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/008.png",
+    "types": ["bug"],
+    "evolutions": [
+      {
+        "level": 7,
+        "method": "level_up",
+        "to": "Metapod",
+        "_id": "557a72aa7276d341b41edda7"
+      }
+    ]
+  },
+  {
+    "_id": "557a72ad7276d341b41eddfa",
+    "pkdx_id": 11,
+    "national_id": 11,
+    "name": "Metapod",
+    "__v": 3,
+    "image_url": "http://pokeapi.co/media/img/11.png",
+    "description": "The shell covering this Pokémon's body is as hard as an iron slab. Metapod does not move very much. It stays still because it is preparing its soft innards for evolution inside the hard shell.  The shell covering this Pokémon's body is as hard as an iron slab. Metapod does not move very much. It stays still because it is preparing its soft innards for evolution inside the hard shell.",
+    "art_url": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/011.png",
+    "types": ["bug"],
+    "evolutions": [
+      {
+        "level": 10,
+        "method": "level_up",
+        "to": "Butterfree",
+        "_id": "557a72ad7276d341b41eddfb"
+      }
+    ]
+  },
+  {
+    "_id": "557a72aa7276d341b41eddbf",
+    "pkdx_id": 12,
+    "national_id": 12,
+    "name": "Butterfree",
+    "__v": 4,
+    "image_url": "http://pokeapi.co/media/img/12.png",
+    "description": "Butterfree has a superior ability to search for delicious honey from flowers. It can even search out, extract, and carry honey from flowers that are blooming over six miles from its nest.  Butterfree has a superior ability to search for delicious honey from flowers. It can even search out, extract, and carry honey from flowers that are blooming over six miles from its nest.",
+    "art_url": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/012.png",
+    "types": ["flying", "bug"],
+    "evolutions": []
+  }
+]
