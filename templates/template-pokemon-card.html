@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{%NAME%}</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel='stylesheet' href='../assets/css/templatePokemonCard.css'>
+  </head>
+  <body>
+    <div class="pokemon__card">
+      <div>
+        <image src="{%IMAGE_URL%}" class="pokemon__image"></image>
+      </div>
+      <div class="info__box">
+        <div class="pokemon__name">
+          <h2>{%POKEDEX%}: {%NAME%}</h2>
+        </div>
+        <div class="pokemon__desc">
+          <p>{%DESCRIPTION%}</p>
+        </div>
+        <div class="pokemon__types">
+          <p>Type(s): {%TYPES%}</p>
+        </div>
+        <div class="{%NO-EVOLUTION%}">
+          <h3>
+            Evolves to:
+            <a class="evolution" href="/pokemon?id={%EVOLUTIONID%}"
+              >{%EVOLUTION%}</a
+            >
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div class="links">
+      <a class="previous__link" href="/pokemon?id={%PREVIOUS%}">Previous Pokemon</a>
+      <a class="home__link" href="/">Back to Home</a>
+      <a class="next__link" href="/pokemon?id={%NEXT%}">Next Pokemon</a>
+    </div>
+  </body>
+</html>

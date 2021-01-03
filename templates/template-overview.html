@@ -4,74 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pokemon Overview</title>
-
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        display: flex;
-      }
-
-      h1 {
-        display: flex;
-        justify-content: center;
-      }
-
-      .card {
-        width: 50%;
-        border: 3px solid black;
-        border-radius: 5rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-bottom: 5rem;
-      }
-
-      .pokemon__image {
-        width: 100px;
-        height: auto;
-      }
-
-      .no-evolution {
-        display: none;
-      }
-
-      .pokemon__card {
-        width: 25%;
-        height: auto;
-        margin: 2rem;
-        border: 2px solid black;
-        padding: 1rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-      }
-
-      .pokemon-container {
-        display: flex;
-        width: 100%;
-        height: auto;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-
-      .pokemon__name,
-      .pokemon__desc {
-        margin-bottom: 2rem;
-      }
-    </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel='stylesheet' href='assets/css/templateOverview.css'>
   </head>
   <body>
+    <h1>Pokemon</h1>
     <div class="container">
-      <h1>Pokemon</h1>
-
       <div class="pokemon-container">{%POKEMON_CARDS%}</div>
-      <div>test</div>
     </div>
   </body>
 </html>

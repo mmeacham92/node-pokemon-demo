@@ -18,6 +18,7 @@ const tempOverview = fs.readFileSync(
 const tempCard = fs.readFileSync("./templates/template-card.html", "utf-8");
 
 const tempPoke = fs.readFileSync('./templates/template-pokemon.html', 'utf-8');
+const tempPokeCard = fs.readFileSync('./templates/template-pokemon-card.html', 'utf-8');
 
 // reads our data.json file
 const data = fs.readFileSync("./dev-data/data.json", "utf-8");
@@ -26,14 +27,16 @@ const pokeData = fs.readFileSync('./dev-data/pokemon.json', 'utf-8');
 // parse our data.json into an array containing each object
 const dataObject = JSON.parse(data);
 const pokeObject = JSON.parse(pokeData);
-console.log(pokeObject);
 
 // create our webserver
 const server = http.createServer((req, res) => {
   // assign the query and pathname to variables
   const { query, pathname } = url.parse(req.url, true);
+  console.log(query, pathname);
 
   // ROUTING
+
+  // Overview Page
   if (pathname === "/") {
     res.writeHead(200, { "Content-type": "text/html" });
 
@@ -51,8 +54,13 @@ const server = http.createServer((req, res) => {
     const pokeCardsHtml = pokeObject.map(el => pokemonReplaceTemplate(tempPoke, el)).join('');
     const output = tempOverview.replace('{%POKEMON_CARDS%}', pokeCardsHtml);
     res.end(output);
+
+    // Pokemon page
   } else if (pathname === "/pokemon") {
     res.writeHead(200, { "Content-type": "text/html" });
+    const pokemon = pokeObject[query.id - 1];
+    const output = pokemonReplaceTemplate(tempPokeCard, pokemon);
+    res.end(output);
   }
 
   res.writeHead(200, { "Content-type": "text/html" });
