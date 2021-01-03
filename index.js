@@ -63,7 +63,12 @@ const server = http.createServer((req, res) => {
     res.end(output);
   }
 
-  res.writeHead(200, { "Content-type": "text/html" });
+  if (pathname.startsWith("/assets")) {
+    fs.readFile(__dirname + req.url, (err, data) => {
+      res.writeHead(200);
+      res.end(data);
+    });
+  } 
 });
 
 server.listen(8000, "127.0.0.1", () => {

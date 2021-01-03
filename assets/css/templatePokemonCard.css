@@ -78,9 +78,11 @@
 
   .evolution {
     text-decoration: none;
-    color: inherit;
+    color: green;
+    font-size: 1.5rem;
+    margin-left: 1rem;
   }
 
-  /* .evolution:hover {
+  .evolution:hover {
       transform: scale(1.6);
-  } */
+  }
