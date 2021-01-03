@@ -71,18 +71,9 @@
     transform: scale(1.1);
   }
 
-  /* .home__link:hover {
-      transform: scale(1.05);
-      color: lightblue;
-  } */
-
   .evolution {
     text-decoration: none;
     color: green;
     font-size: 1.5rem;
     margin-left: 1rem;
-  }
-
-  .evolution:hover {
-      transform: scale(1.6);
   }
